@@ -13,7 +13,7 @@ This repository contains my complete Python programming submission, divided into
 
 ---
 
-## Repository Structure
+## Explanation
 
 ```text
 ├── part1_tasks/                  # Completed Part 1 Python practice scripts (.py)
@@ -29,3 +29,25 @@ This repository contains my complete Python programming submission, divided into
 ├── screenshot2.png               # Output screenshot: Viewing all students
 ├── screenshot3.png               # Output screenshot: Searching a student
 └── README.md                     # Project documentation
+
+
+## About the Project
+
+The **Student Management System** (`studentmanagement.py`) is a menu-driven command-line application built in Python to store and manage records for up to **3 students**. Instead of losing data when the program closes, it automatically saves every record to a local text file (`students.txt`) and reloads it the next time the program starts.
+
+### Key Features
+1. **Add Student (Max 3):** Collects a student's name, roll number, and marks, checks that the 3-student limit has not been reached, and saves the entry to `students.txt`.
+2. **View All Students:** Displays all currently saved student records (roll number, name, and marks) in the console.
+3. **Search Student by Roll Number:** Searches through the stored list using a roll number and prints the matching student's name and marks.
+4. **Calculate Average Marks:** Computes and displays the overall average marks across all saved students.
+5. **Exit:** Cleanly closes the menu loop while keeping all records saved in `students.txt`.
+
+---
+
+## How to Run the Project
+
+### Option 1: Using Terminal / Command Prompt
+1. Make sure **Python 3** is installed on your computer.
+2. Open your terminal and navigate to the folder containing `studentmanagement.py`:
+   ```bash
+   cd path/to/your/folder
