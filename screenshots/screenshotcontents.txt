@@ -1,0 +1,72 @@
+Python 3.9.5 (v3.9.5:0a7dcbdb13, May  3 2021, 13:17:02) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+========= RESTART: /Users/himarshdeewan/Documents/studentmanagement.py =========
+
+1. Add student
+2. View all students
+3. Search student by roll number
+4. Calculate average marks
+5. Exit
+Choice: 1
+Name: Himarsh Deewan
+Roll number: 26ucs207
+Marks: 67
+Student saved!
+
+1. Add student
+2. View all students
+3. Search student by roll number
+4. Calculate average marks
+5. Exit
+Choice: 1
+Name: Harshita Deewan
+Roll number: 24dcs023
+Marks: 100
+Student saved!
+
+1. Add student
+2. View all students
+3. Search student by roll number
+4. Calculate average marks
+5. Exit
+Choice: 1
+Name: Shubham Agrawal
+Roll number: 26uec012
+Marks: 67
+Student saved!
+
+1. Add student
+2. View all students
+3. Search student by roll number
+4. Calculate average marks
+5. Exit
+Choice: 2
+Roll: 26ucs207 | Name: Himarsh Deewan | Marks: 67.0
+Roll: 24dcs023 | Name: Harshita Deewan | Marks: 100.0
+Roll: 26uec012 | Name: Shubham Agrawal | Marks: 67.0
+
+1. Add student
+2. View all students
+3. Search student by roll number
+4. Calculate average marks
+5. Exit
+Choice: 3
+Enter roll number: 24dcs023
+Found: Harshita Deewan | Marks: 100.0
+
+1. Add student
+2. View all students
+3. Search student by roll number
+4. Calculate average marks
+5. Exit
+Choice: 4
+Average marks: 78.0
+
+1. Add student
+2. View all students
+3. Search student by roll number
+4. Calculate average marks
+5. Exit
+Choice: 
